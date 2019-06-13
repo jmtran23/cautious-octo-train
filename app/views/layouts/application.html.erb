@@ -3,8 +3,6 @@
   <head>
     <title>Splurty</title>
     <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -28,6 +26,7 @@
         <%= link_to 'Contribute', '#' %>
         <%= link_to 'About', '#' %>
       </div>
+      
     </header>
 
     <hr />
@@ -35,6 +34,7 @@
     <br class="clear" />
 
     <%= yield %>
+
   </body>
 </html>
 
